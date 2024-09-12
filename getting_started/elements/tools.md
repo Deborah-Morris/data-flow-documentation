@@ -15,9 +15,9 @@ You will need a GRID certificate to access many websites and resources within SN
 **NOTE** - When requesting a certificate, use **Chrome**, as Firefox has an issue. Once the certificate is ready, use **Firefox** to import it and use for any pages where a certificate is necessary, as Chrome has issues. 
 
 1. **For Canadian users**: Go to [this website](https://cert.gridcanada.ca/cgi-bin/pub/pki?cmd=getStaticPage&name=homePage)
-2. Choose **2 - Request a Certificate**, choose **User Request** and enter "snoplusdata.snolab.ca" as the host name (MAKE NOTE OF THE PIN USED)
+2. Choose **2 - Request a Certificate**, choose **User Request** and enter your home instititution name and email. note you must use your instituational email. (MAKE NOTE OF THE PIN USED)
 3. **For users from other countries**, please follow the instructions [here](https://snopl.us/docs/rat/grid_manual/html/certificates_and_initial_setup.html).
-4. After receiving the response, you can download and import the certificate into Firefox. While downloading the certificate the page will ask for a password associated with your key - input the **PIN** that was created in step 2.
+4. After receiving the response, you will get a .pem file and a link to download the actual certificate which is a .p12 file. While downloading the certificate the page will ask for a password associated with your key - input the **PIN** that was created in step 2.
 5. Finally, you need to [apply to join the SNO+ virtual organisation (VO)](https://voms.gridpp.ac.uk:8443/voms/snoplus.snolab.ca). **Remember to use Firefox with an imported certificate.** 
 
 ---
